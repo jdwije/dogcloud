@@ -12,10 +12,14 @@ a graphql explorer for this graph and a gatsby front-end which talks to it.
 
 ## Usage
 
-This should probably be a monorepo but..... oh well. See the `packages`
-directory. `cd` into each one of these directories and run `yarn` then `yarn
-start`. You should boot the `dog-graph` first. For more details see each
-packages' own README file.
+Run `yarn` in the root of this repository to install al packages. `cd` into
+package directories and run `yarn start` to boot services. You should boot the
+`dog-graph` first. For more details see each packages' own README file.
+
+## Known Issues
+
+- Broken package hoisting for `dog-graph-explorer`. Skip pre-flight checks to
+  by-pass issue for now.
 
 
 ## Contributing
