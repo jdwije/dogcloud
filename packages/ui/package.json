@@ -1,8 +1,9 @@
 {
-  "name": "@jdw/jcloud-ui",
-  "version": "1.0.0",
+  "name": "@jdw/dog-ui",
+  "version": "0.0.0",
   "private": true,
-  "description": "jcloud",
+  "description": "The user interface in front of jwije.com",
+  "license": "JSON",
   "author": "Jason Wijegooneratne",
   "keywords": [
     "gatsby"

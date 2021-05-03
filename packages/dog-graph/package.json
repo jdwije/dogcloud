@@ -1,8 +1,9 @@
 {
-  "name": "jgraph",
-  "version": "1.0.0",
+  "name": "@jdw/dog-graph",
+  "version": "0.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "JSON",
+  "private": true,
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "@types/exif": "^0.6.2",
@@ -14,6 +15,7 @@
   "scripts": {
     "build": "tsc",
     "deploy": "yarn build && dotenv ./bin/deploy.sh",
+    "provision": "dotenv ./bin/provision.sh",
     "start": "dotenv ./bin/run-local.sh",
     "generate": "apollo codegen:generate -c apollo.config.js --target typescript --outputFlat built/generated "
   },

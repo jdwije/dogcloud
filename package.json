@@ -1,9 +1,17 @@
 {
-  "name": "@jdw/jnet",
+  "name": "@jdw/dogcloud",
   "version": "0.0.1",
-  "description": "A bunch of personal services",
+  "description": "A bunch of stuff",
   "main": "index.js",
   "author": "Jason Wijegooneratne <admin@jwije.com>",
-  "license": "MIT",
-  "private": true
+  "license": "JSON",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "@jdw/dog-graph-explorer/**"
+    ]
+  }
 }
