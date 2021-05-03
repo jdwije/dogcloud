@@ -1,0 +1,17 @@
+.logo {
+    height: 15vh;
+    width: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary);
+}
+
+.logo a {
+    font-size: var(--font-scale);
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "name": "@jdw/jnet",
+  "version": "0.0.1",
+  "description": "A bunch of personal services",
+  "main": "index.js",
+  "author": "Jason Wijegooneratne <admin@jwije.com>",
+  "license": "MIT",
+  "private": true
+}

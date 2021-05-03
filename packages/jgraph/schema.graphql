@@ -1,0 +1,39 @@
+type UrlResource {
+  source: String!
+  createdAt: String!
+  mimeType: String!
+  title: String
+  author: String
+  resource: String!
+}
+
+type Post {
+  id: ID
+  content: String
+  attachment: UrlResource
+}
+
+input RurlInput {
+  url: String!
+}
+
+type SignedUrlForUpload {
+  url: String!
+}
+
+input UploadInput {
+  key: String!
+  contentType: String!
+  public: Boolean!
+}
+
+type Query {
+  posts: [Post]!
+  rurl(input: RurlInput!): UrlResource!
+  getSignedUrlForUpload(input: UploadInput!): SignedUrlForUpload
+}
+
+type Mutation {
+  openUploadChannel: String
+}
+

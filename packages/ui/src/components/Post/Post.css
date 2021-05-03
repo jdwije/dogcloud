@@ -1,0 +1,62 @@
+.post-content {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-content > * {
+    margin: 0 0 1vh 0;
+}
+.post-content > p {
+    font-size: var(--font-size-label);
+}
+
+
+.drop-content {
+
+}
+
+.file-upload {
+
+}
+
+.file-upload label {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.file-upload span {
+    margin-right: 2em;
+}
+
+.post-control {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-control > * {
+    width: 45%;
+}
+
+.post-attachment {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.post-attachment > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.post-attachment > div > * {
+    margin-right: 2em;
+}
